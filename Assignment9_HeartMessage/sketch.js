@@ -5,13 +5,9 @@ var speed = 9;
 
 var fire = 0;
 
-var red1 = [209, 30, 30];
-var green1 = [58,292,4];
-var blue1 = [153,224,228];
-
-var red2 = [228,30,216];
-var green2 = [95,157,25];
-var blue2 = [88,205,100];
+var red1 = [209, 30, 30, 39, 198, 200, 30, 10, 250];
+var green1 = [58,292,4, 198, 200, 30, 100, 80];
+var blue1 = [153,200,228, 198, 200, 30, 100, 20];
 
 
 function setup() {
@@ -21,7 +17,7 @@ function setup() {
 
 function draw() {
 
-   background (0);
+   background (30);
     
     
     fill(red1[fire],green1[fire],blue1[fire]);
@@ -56,7 +52,7 @@ function draw() {
 //    H E A R T
     
     var r = 
-            fill(red1);  
+            fill(209, 30, 30);  
             noStroke();  
     
     triangle(259, 405, 523.37, 404.64, 391, 568);
