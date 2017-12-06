@@ -162,7 +162,33 @@ if (mouseX>rectLeft && mouseX<rectRight && mouseY> rectTop && mouseY< rectBottom
 
     } 
        
+if (mouseX>naLeft && mouseX<naRight && mouseY> naTop && mouseY< naBottom){
+    
 
+    
+            buttonClicktest= !buttonClicktest;
+    
+    if (buttonClicktest){
+        vallenato.play();
+    }else{
+        vallenato.stop();
+        }
+
+    } 
+    
+    if (mouseX>afrLeft && mouseX<afrRight && mouseY> afrTop && mouseY< afrBottom){
+    
+
+    
+            buttonClicktest= !buttonClicktest;
+    
+    if (buttonClicktest){
+        vallenato.play();
+    }else{
+        vallenato.stop();
+        }
+
+    } 
 
 }
     
